@@ -1,0 +1,11 @@
+{
+  "name": "space-tourism",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./public/assets/css/source.css -o ./public/assets/css/style.css --watch",
+    "build": "npx tailwindcss -i ./public/assets/css/source.css -o ./public/assets/css/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
